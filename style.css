@@ -1,3 +1,205 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,600,800|Readex+Pro:400");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Raleway;
+}
+
+.navbar-brand img {
+  width: 220px;
+  height: 80px;
+}
+.container-fluid {
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-content {
+  position: relative;
+  background: url(assets/Header.png);
+  background-position: center;
+  max-width: 100%;
+  height: 890px;
+}
+
+.content-first {
+  position: relative;
+  padding: 278px 200px;
+  color: #ffffff;
+}
+
+.text-head {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.first-head {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.text-third {
+  padding-bottom: 20px;
+  font-size: 20px;
+  width: 995px;
+}
+
+.button-head {
+  width: 194px;
+  height: 66px;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  color: #ffffff;
+}
+
+.button-head:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 300ms;
+  font-weight: 600;
+}
+
+.bg-content-2 {
+  position: relative;
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 347px;
+}
+
+.container-text-2 {
+  padding: 50px 0;
+}
+
+.first-text {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.second-text {
+  font-size: 20px;
+  width: 100%;
+}
+
+.container-img img {
+  width: 250px;
+  height: 200px;
+}
+.container-img {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px 100px 100px;
+}
+
+.zoom:hover {
+  scale: 1.123;
+  transition: 0.5s;
+}
+
+.footer-end {
+  margin-top: 200px;
+}
+
+.logo-fotter {
+  margin-top: -50px;
+  margin-left: -57px;
+  width: 200px;
+  height: 200px;
+}
+
+.pg-text {
+  margin-top: -20px;
+}
+
+/* Responsive Mobile Content */
+@media only screen and (max-width: 500px) { 
+
+  body {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+  .container-fluid {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .bg-content {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    background-position: center;
+  }
+
+  .content-first {
+    padding: 100px 30px;
+    width: 100%;
+  }
+
+  .first-head {
+    font-size: 54px;
+  }
+
+  .text-third {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .bg-content-2 {
+    width: 100%;
+    height: 900px;
+  }
+
+  .button-head {
+    width: 150px;
+    height: 50px;
+  }
+
+  .container-text-2 {
+    width: 100%;
+  }
+
+  .second-text {
+    margin-left: 5px;
+    width: 100%;
+    font-size: 15px;
+  }  
+  .container-img img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .zoom:hover {
+    scale: none;
+  }
+
+  .container-img {
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 10px 100px 10px;
+  }
+
+  .footer-end {
+    margin-top: 1000px;
+    width: 100%;
+  }
+
+  .logo-fotter {
+    margin-left: 3px;
+  }
+}
+
+=======
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700,600,800|Readex+Pro:400");
 
 * {
@@ -187,3 +389,4 @@
   }
 }
 
+>>>>>>> 173a637077a8d36d59c3e32f64f5a5d7f6ef60e9
